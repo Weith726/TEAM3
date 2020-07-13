@@ -1,0 +1,60 @@
+
+
+.mynavbar a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #070A6A;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.mynavbar a:hover {
+	color: #FFC300;
+}
+
+.card img {
+	max-width: 260px;
+	height: 250px;
+}
+
+.card {
+	height: 500px;
+	box-sizing: border-box;
+	overflow: inherit;
+	background-color:#E7E7DC;
+}
+
+#cart {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 60px;
+	height:60px;
+}
+
+@media ( max-width : 767px) {
+	.card img {
+		width: 350px;
+		height: 250px;
+	}
+}
+#selectnum{
+	color:red;
+}
+.proselect
+{
+	display:none;
+}
+#mybody{
+	background-color:#CDCDCB;
+}
+.PMprice{
+		color:red;
+		font-weight:bold;
+		font-size:22px;
+	}
+	label{
+		color:red;
+		font-weight:bold;
+		font-size:22px;
+	}

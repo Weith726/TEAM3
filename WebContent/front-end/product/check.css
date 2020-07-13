@@ -1,0 +1,34 @@
+	#mybody{
+		background-color:#DCE9EB;
+	}
+	img {
+	width:40px;
+	height:40px;
+	}
+	.thead{
+		background-color:#EBDCE4;
+		border:black solid;
+	}
+	thead tr{
+		text-align:center;
+	}
+	tbody tr {
+	border: solid black 1px;
+	color: black;
+	line-height:40px;
+	text-align:center;
+	}
+	table td{
+		font-size:15px;
+		font-weigth:bold;
+		color:blue;
+	}
+	.thead tr{
+		line-height:15px;
+		font-size:12px;
+	}
+	#total{
+		color:red;
+		font-size:20px;
+		font-weight:bold;
+	}

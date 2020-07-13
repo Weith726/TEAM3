@@ -1,0 +1,51 @@
+	img {
+	width: 70px;
+	height: 70px;
+	}
+	.thead{
+		background-color:#D7B3E7;
+		border:black solid;
+	}
+	thead tr{
+		text-align:center;
+	}
+	tbody tr {
+	border: solid black 1px;
+	color: black;
+	line-height:60px;
+	text-align:center;
+	}
+	table td{
+		font-size:20px;
+		font-weigth:bold;
+		color:blue;
+	}
+	h2{
+		color:black;
+		font-size:50px;
+	}
+	h1{
+		color:red;
+		font-size:100px;
+		font-weigth:bold;
+	}
+	#total{
+		font-size:30px;
+		color:red;
+	}
+	.quantity{
+		color:red;
+		font-size:25px;
+		font-weigth:bold;
+	}
+	#stock{
+		color:#2A8934;
+		font-weigth:bold;
+		font-size:20px;
+	}
+	#mybody{
+		background-color:#D9F3EE;
+	}
+	#myjumbotron{
+	background-color:#71ECC0;
+	}

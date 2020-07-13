@@ -1,0 +1,44 @@
+	.ordertr{
+		background-color:#C4C1D5;
+		border:black solid;
+	}
+	thead tr{
+		text-align:center;
+	}
+	tbody tr {
+	border: solid black 1px;
+	color: black;
+	line-height:30px;
+	text-align:center;
+	}
+	table td{
+		font-size:20px;
+		font-weigth:bold;
+		color:blue;
+	}
+	h2{
+		color:black;
+		font-size:50px;
+	}
+	h1{
+		color:red;
+		font-size:100px;
+		font-weigth:bold;
+	}
+	#mybody{
+		background-color:#EBE6EE;
+	}
+	.detailtr{
+		background-color:#B8EAE0;
+		border:black solid;
+	}
+	.detail{
+		display:none;
+	}
+	#myjumbotron{
+	background-color:#71ECC0;
+	}
+	img.pimg{
+		width:40px;
+		height:40px;
+	}
