@@ -10,27 +10,16 @@
 
 
 
-	<div class="action" id="navbarMenu">
-
-
-		<div class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false"> <span class="mem-name">員工姓名</span> <img
-				src="https://img.zi.org.tw/kocpc/2016/03/1459154850-700b055d1420ad51e9c6ea269dbf2317.jpg"
-				class="mem-pic">
-			</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="#">預留功能列</a>
-
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item"
-					href="<%=request.getContextPath()%>/back-end/login.html">登出</a>
-			</div>
+	<div class="logout">
+	<img src="<%= request.getContextPath()%>/back-end/emp/img.do?empID=${empVONav.empID}" class="mem-pic">
+			<span class="mem-name">${empVONav.empName}</span> 
+		<FORM METHOD="post"
+			ACTION="<%=request.getContextPath()%>/back-end/emp/login.do" class="logoutForm">
+			<button type="submit" class="btn btn-link">登出</button>
+			
+			<input type="hidden" name="action" value="logout">
+		</FORM>
 		</div>
-
-		<!-- <button type="button" class="btn btn-primary btn-lg" id="loginBtn">登入</button> -->
-
 
 	</div>
 

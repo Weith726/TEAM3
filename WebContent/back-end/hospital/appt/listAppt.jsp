@@ -106,10 +106,10 @@ img {
 								</c:forEach></td>
 			<td>${apptVO.symdesc}</td>
 			<td><img
-					src="<%= request.getContextPath()%>/back-end/appt/img.do?apptno=${apptVO.apptno}"></td>
+					src="<%= request.getContextPath()%>/back-end/hospital/appt/img.do?apptno=${apptVO.apptno}"></td>
 			<td>${(apptVO.optstate =='0')?'<font color="goldenrod">未看診':(apptVO.optstate =='1')?'<font color="green">已看診':'<font color="red">已取消'}</td>
 			<td><FORM METHOD="post"
-						ACTION="<%=request.getContextPath()%>/back-end/appt/appt.do"
+						ACTION="<%=request.getContextPath()%>/back-end/hospital/appt/appt.do"
 						style="margin-bottom: 0px;">
 						<c:if test="${apptVO.optstate =='0'}">
 						<button type="submit" class="btn btn-success">看診完畢</button>

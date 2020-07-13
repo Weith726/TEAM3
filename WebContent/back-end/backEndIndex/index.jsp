@@ -63,7 +63,7 @@
 
 	<nav class="navbar fixed-top">
 		<div class="icon">
-			<a href="<%=request.getContextPath()%>/back-end/emp/index.jsp">Cute:)<span
+			<a href="<%=request.getContextPath()%>/back-end/backEndIndex/index.jsp">Cute:)<span
 				style="color: #00E8E8;">Family</span>
 			</a>
 

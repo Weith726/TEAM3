@@ -52,25 +52,25 @@
 		<dispatcher>ASYNC</dispatcher>
 	</filter-mapping>
 	<!-- 	以下為emp過濾器的註冊 -->	
-<!-- 	<filter> -->
-<!-- 		<filter-name>loginFilter</filter-name> -->
-<!-- 		<filter-class>filters.LoginFilter</filter-class> -->
-<!-- 	</filter> -->
-<!-- 	<filter-mapping> -->
-<!-- 		<filter-name>loginFilter</filter-name> -->
-<!-- 		<url-pattern>/back-end/adopt/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/hospital/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/Hotel/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/member/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/product/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/productorder/*</url-pattern> -->
-<!-- 		<url-pattern>/back-end/promotion/*</url-pattern> -->
-<!-- 		<dispatcher>REQUEST</dispatcher> -->
-<!-- 		<dispatcher>FORWARD</dispatcher> -->
-<!-- 		<dispatcher>INCLUDE</dispatcher> -->
-<!-- 		<dispatcher>ERROR</dispatcher> -->
-<!-- 		<dispatcher>ASYNC</dispatcher> -->
-<!-- 	</filter-mapping> -->
+	<filter>
+		<filter-name>loginFilter</filter-name>
+		<filter-class>filters.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilter</filter-name>
+		<url-pattern>/back-end/adopt/*</url-pattern>
+		<url-pattern>/back-end/hospital/*</url-pattern>
+		<url-pattern>/back-end/Hotel/*</url-pattern>
+		<url-pattern>/back-end/member/*</url-pattern>
+		<url-pattern>/back-end/product/*</url-pattern>
+		<url-pattern>/back-end/productorder/*</url-pattern>
+		<url-pattern>/back-end/promotion/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+		<dispatcher>ASYNC</dispatcher>
+	</filter-mapping>
 	
 	
 
@@ -320,7 +320,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ApptShowImg</servlet-name>
-		<url-pattern>/back-end/appt/img.do</url-pattern>
+		<url-pattern>/back-end/hospital/appt/img.do</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -329,7 +329,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LoginHandler</servlet-name>
-		<url-pattern>/back-end/login.do</url-pattern>
+		<url-pattern>/back-end/emp/login.do</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -338,7 +338,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>OptServlet</servlet-name>
-		<url-pattern>/back-end/opt/opt.do</url-pattern>
+		<url-pattern>/back-end/hospital/opt/opt.do</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -347,7 +347,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ApptServlet</servlet-name>
-		<url-pattern>/back-end/appt/appt.do</url-pattern>
+		<url-pattern>/back-end/hospital/appt/appt.do</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -356,7 +356,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ApptServletFront</servlet-name>
-		<url-pattern>/front-end/appt/apptStart.do</url-pattern>
+		<url-pattern>/front-end/hospital/appt/apptStart.do</url-pattern>
 	</servlet-mapping>
 
 	

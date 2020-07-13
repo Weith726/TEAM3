@@ -28,9 +28,9 @@ pageContext.setAttribute("list", jsonStr);
 <head>
 <%@ include file="/back-end/backEndInclude/head.jsp"%>
 
-<link href='/back-end/backEndInclude/fullcalendar/main.css' rel='stylesheet' />
-<script src='/back-end/backEndInclude/fullcalendar/main.js'></script>
-<script src='/back-end/backEndInclude/fullcalendar/locales-all.js'></script>
+<link href='<%=request.getContextPath()%>/back-end/hospital/fullcalendar/main.css' rel='stylesheet' />
+<script src='<%=request.getContextPath()%>/back-end/hospital/fullcalendar/main.js'></script>
+<script src='<%=request.getContextPath()%>/back-end/hospital/fullcalendar/locales-all.js'></script>
 
 <script>
 

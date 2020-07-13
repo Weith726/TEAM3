@@ -39,9 +39,9 @@ pageContext.setAttribute("jsonStr", jsonStr);
 <head>
 <%@ include file="/front-end/frontEndInclude/head.jsp"%>
 
-<link href='/front-end/frontEndInclude/fullcalendar/main.css' rel='stylesheet' />
-<script src='/front-end/frontEndInclude/fullcalendar/main.js'></script>
-<script src='/front-end/frontEndInclude/fullcalendar/locales-all.js'></script>
+<link href='<%=request.getContextPath()%>/front-end/hospital/fullcalendar/main.css' rel='stylesheet' />
+<script src='<%=request.getContextPath()%>/front-end/hospital/fullcalendar/main.js'></script>
+<script src='<%=request.getContextPath()%>/front-end/hospital/fullcalendar/locales-all.js'></script>
 
 
 <script>

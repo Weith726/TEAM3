@@ -29,7 +29,7 @@ public class ApptShowImg extends HttpServlet {
 			out.write(buf);
 
 		} catch (Exception e) {
-			InputStream in = getServletContext().getResourceAsStream("/Nodata/null.jpg");
+			InputStream in = getServletContext().getResourceAsStream("/back-end/hospital/Nodata/null.jpg");
 			byte[] b = new byte[in.available()];
 			in.read(b);
 			out.write(b);
